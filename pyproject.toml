@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dotfilish"
+version = "0.1.0"
+description = "A dotfile manager and then some"
+authors = ["j.c.sackett <j.c.sackett@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
